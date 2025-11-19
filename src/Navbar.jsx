@@ -9,7 +9,7 @@ export default function Navbar(){
       <Link to="/" className='logoLink'><button className='logo'><img src="public/vite.svg" alt="logo" /></button></Link>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/contact">Contacts</Link>
     </div>
    
     <div className='nav-right'>
