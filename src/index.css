@@ -1,0 +1,79 @@
+:root {
+  background-color: #242424;
+  color: antiquewhite;
+  text-align: center;
+  font-family: cursive;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.nav{
+   display: flex;
+   width: auto;
+   height: 4.5em;
+   background-color:	#F5F5F5; 
+   font-size: 1rem; 
+   justify-content: space-between; 
+
+}
+
+.nav-left{
+  display: flex;
+  padding-left: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-right{
+  display: flex;
+  padding-top: 10px;
+}
+
+.nav-right>a{
+  padding: 10px 10px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(27, 22, 2);
+  padding:5px 5px; 
+  font-size: 20px;
+}
+
+a:hover{
+  background-color: #C0C0C0;
+  border-radius: 10px;
+  /* padding-top: 2px;  (adding padding in hover effect causes the element to jump so avoid this.*/
+}
+
+.logo{
+  border: none;
+  height: 40px;
+}
+
+.logoLink:hover{
+  background-color: #F5F5F5;
+}
+
+.signup{
+  background-color: #C0C0C0;
+  font-family: cursive;
+  font-size: 1.3rem;
+  border-radius:10px;
+}
+
+.signup:hover{
+  background-color :#F5F5F5;
+}
+
+.signupLink:hover{
+background-color: #F5F5F5;
+}
+
+
